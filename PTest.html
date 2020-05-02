@@ -29,6 +29,20 @@
         color: white;
       }
     </style>
+    
+    
+    <!--MarkerEventListener-->
+        <script>
+      
+    
+          
+    entityEl.addEventListener('MarkerFound', function (event) {
+    console.log('Entity Found with');
+        });
+ 
+    </script>
+    
+    
   </head>
 
   <body style="margin : 0px; overflow: hidden;">
@@ -65,5 +79,6 @@
       <!-- static camera that moves according to the device movemenents -->
       <a-entity camera></a-entity>
     </a-scene>
+
   </body>
 </html>
